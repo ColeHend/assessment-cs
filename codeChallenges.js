@@ -1,7 +1,7 @@
 function addToZero(numArr) {
     for (let i = 0; i < numArr.length; i++) {
         for (let j = 0; j < numArr.length; j++) {
-            if (numArr[i]+numArr[j]===0) {
+            if (numArr[i]+numArr[j]===0 && i !== j) {
                 return true
             }
         }
